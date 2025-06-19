@@ -1,7 +1,7 @@
 # IT Ticket System 
 This program is IT Ticket System written in Java.
 
-## 📄 Description
+## Description
 This program is a **console-based IT Ticket System** that allows users to manage up to 5 tickets. It simulates a basic support ticket workflow, including adding issues, updating statuses, displaying all tickets, and generating a summary report.
 
 ## Objectives
