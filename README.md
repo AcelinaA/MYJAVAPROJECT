@@ -1,10 +1,10 @@
-# Java Programming Laboratory Activities & Final Project
+# Summary of Java Programming Laboratory Activities & Final Project
 
 This repository contains various Java programming activities that demonstrate fundamental and intermediate concepts including input handling, conditionals, GUI development (AWT & Swing), event-driven programming, and application design.
 
 ---
 
-## Summary of Activities
+## Activities
 
 ### **LabActivity1EmployeeInformationSystem**
 A simple console-based program that gathers an employee’s name, age, hours worked, and hourly wage. It computes and displays the daily salary using basic input handling and arithmetic operations.
