@@ -1,51 +1,64 @@
-# Employee Information System
-This program is a simple Employee Information System written in Java.
+# Employee Information System Part 2
+This program is Part 2 of the my Simple Employee Information System written in Java.
 
 ## Description
-It demonstrates the use of basic input/output operations, arithmetic calculations, and Scanner class usage to collect user input from the console.
+This enhanced version of the Employee Information System builds on Lab Activity 1. 
 
-**The Employee System collects the following information:**
-- First Name
-- Last Name
-- Age
-- Hours Worked
-- Hourly Wage
- 
-After collecting the following information, it then computes **hours Worked** and **Hourly Wage** to get **Daily Salary**
+**It collects employee data from the user and performs multiple salary-related computations from the user**
+- Daily Salary
+- Retirement Age
+- Weekly Salary
+- Monthly Salary
+- Gross Yearly Salary
+- Net Yearly Salary
 
-## Objective
-- Get the information of the user
-- Perform arithmetic operations
-- Format and display output clearly
+## Objectives
+- Reinforce the use of Java's `Scanner` class for input handling
+- Apply mathematical operations for salary and financial computations
+- Use `Math.abs()` to calculate retirement age difference
 
-## How It works
+## How It Works
 
-1. It ask for the followung information first 
+1. **It ask for the following information first** 
    - First and last name
    - Age
    - Hours worked
    - Hourly wage
 
-2. The program then calculates **Daily Salary**
-    ```
-   dailySalary = hoursWorked * hourlyWage
-    ```
-3. The output displays a summary of all information
+2. **Calculate the following**
+   - `dailySalary = hoursWorked * hourlyWage`
+   - `retirementAge = Math.abs(65 - age)`
+   - `weeklySalary = dailySalary * 5`
+   - `monthlySalary = weeklySalary * 4`
+   - `grossYearlyWage = monthlySalary * 12`
+   - `netYearlyWage = grossYearlyWage - (grossYearlyWage * 0.32) - 1500`
+
+3. **Output:**
+   - Displays full name, age, years to retirement, and all salary breakdowns
+
+---
 
 ## Sample Output
+
+---
 
 ```
 Enter your first name: Ahron James
 Enter your last name: Balmoria
-Enter your age: 18
+Enter your age: 30
 Enter hours worked: 8
-Enter hourly wage: 100
+Enter hourly wage: 120
 
-Employee Information
---------------------
-Full Name   : Ahron James Balmoria
-Age         : 18 years old
-Daily Salary: PHP 800.00
+            Employee Information
+--------------------------------------------
+Full Name             : Ahron James Balmoria
+Age                   : 30 years old
+Years to Retirement   : 35 years old
+Daily Salary          : PHP 960.00
+Weekly Salary         : PHP 4800.00
+Monthly Salary        : PHP 19200.00
+Gross Yearly Wage     : PHP 230400.00
+Net Yearly Wage       : PHP 154672.00
 ```
 
 ## Author
