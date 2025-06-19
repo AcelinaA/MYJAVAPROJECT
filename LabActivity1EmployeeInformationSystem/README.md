@@ -2,7 +2,7 @@
 This program is a simple Employee Information System written in Java.
 
 ## Description
-It demonstrates the use of basic input/output operations, arithmetic calculations, and Scanner class usage to collect user input from the console.
+It demonstrates the use of basic input/output operations, arithmetic calculations, and `Scanner` class usage to collect user input from the console.
 
 **The Employee System collects the following information:**
 - First Name
@@ -15,12 +15,13 @@ After collecting the following information, it then computes **hours Worked** an
 
 ## Objective
 - Get the information of the user
+- Reinforce the use of Java's `Scanner` class for input handling
 - Perform arithmetic operations
 - Format and display output clearly
 
 ## How It works
 
-1. It ask for the followung information first 
+1. It ask for the following information first 
    - First and last name
    - Age
    - Hours worked
