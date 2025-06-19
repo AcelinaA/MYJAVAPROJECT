@@ -1,52 +1,44 @@
-# Employee Information System
-This program is a simple Employee Information System written in Java.
+# Lab Activity 6 - To-Do List Application (Java Swing)
+This program is a Employee Information System with GUI using SWING written in Java.
 
-## Description
-It demonstrates the use of basic input/output operations, arithmetic calculations, and Scanner class usage to collect user input from the console.
+## 📄 Description
+This Java Swing application implements a **To-Do List Manager** with a clean graphical interface. It allows users to view a table of tasks and add new tasks using a secondary form window. The program uses `JFrame`, `JTable`, and other Swing components to create a professional, responsive GUI with modern features.
 
-**The Employee System collects the following information:**
-- First Name
-- Last Name
-- Age
-- Hours Worked
-- Hourly Wage
- 
-After collecting the following information, it then computes **hours Worked** and **Hourly Wage** to get **Daily Salary**
+## Objectives
+- Practice using Java Swing to build a multi-window GUI application
+- Handle user inputs and events with interactive components
+- Organize task data using `JTable` and `DefaultTableModel`
+- Use modular design through multiple class structures (main + form window)
 
-## Objective
-- Get the information of the user
-- Perform arithmetic operations
-- Format and display output clearly
+## How It Works
 
-## How It works
+### Main Window (`LabActivity6SwingToDoList`)
+- Displays a table showing all tasks
+- Contains a **"Add Task"** button that opens a form window
+- Uses `DefaultTableModel` to manage task entries
 
-1. It ask for the followung information first 
-   - First and last name
-   - Age
-   - Hours worked
-   - Hourly wage
+### Form Window (`ToDoListForm`)
+- Accepts user input for:
+  - Task Name
+  - Task Description
+  - Task Status (`Not Started`, `Ongoing`, `Completed`)
+- Validates required fields before saving
+- Adds task to the main window's table on submission
 
-2. The program then calculates **Daily Salary**
-    ```
-   dailySalary = hoursWorked * hourlyWage
-    ```
-3. The output displays a summary of all information
+## Sample Workflow
 
-## Sample Output
+1. User opens the app and clicks **"Add Task"**.
+2. A new window appears where the user fills in:
+   - Task Name: `Submit project`
+   - Task Description: `Finalize and upload the group project`
+   - Status: `Ongoing`
+3. After clicking **"Save Task"**, the form closes and the task appears in the table.
 
-```
-Enter your first name: Ahron James
-Enter your last name: Balmoria
-Enter your age: 18
-Enter hours worked: 8
-Enter hourly wage: 100
-
-Employee Information
---------------------
-Full Name   : Ahron James Balmoria
-Age         : 18 years old
-Daily Salary: PHP 800.00
-```
+## Features
+- Multi-window functionality (main + form)
+- Input validation with error messages
+- User-friendly design with pink color theme and scrollable task list
+- Centered windows for better UX
 
 ## Author
 *Ahron James Balmoria*  
