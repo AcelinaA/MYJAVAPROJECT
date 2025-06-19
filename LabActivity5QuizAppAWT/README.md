@@ -1,51 +1,46 @@
-# Employee Information System
-This program is a simple Employee Information System written in Java.
+# Quiz Application (Java AWT)
 
-## Description
-It demonstrates the use of basic input/output operations, arithmetic calculations, and Scanner class usage to collect user input from the console.
+## 📄 Description
+This project is a simple **Quiz Application** built using **Java AWT (Abstract Window Toolkit)**. It features multiple-choice questions with radio buttons, error handling, and score tracking, all within a basic GUI layout. The quiz consists of three questions and gives the user a score summary upon completion.
 
-**The Employee System collects the following information:**
-- First Name
-- Last Name
-- Age
-- Hours Worked
-- Hourly Wage
- 
-After collecting the following information, it then computes **hours Worked** and **Hourly Wage** to get **Daily Salary**
+## Objectives
+- Apply Java AWT components to create an interactive GUI application
+- Use `CheckboxGroup` for radio button-style multiple-choice answers
+- Implement event-driven programming using `ActionListener`
+- Manage quiz flow, answer validation, and scoring
 
-## Objective
-- Get the information of the user
-- Perform arithmetic operations
-- Format and display output clearly
+## How It Works
 
-## How It works
+1. **Questions and Options:**
+   - 3 multiple-choice questions are defined with 4 options each
+   - Correct answers are stored using index references
 
-1. It ask for the followung information first 
-   - First and last name
-   - Age
-   - Hours worked
-   - Hourly wage
+2. **User Interface:**
+   - Uses `Label`, `CheckboxGroup`, `Checkbox`, and `Button`
+   - Layouts: `BorderLayout`, `GridLayout` for clean positioning
+   - "Next" button loads the next question
 
-2. The program then calculates **Daily Salary**
-    ```
-   dailySalary = hoursWorked * hourlyWage
-    ```
-3. The output displays a summary of all information
+3. **Functionality:**
+   - Only one answer can be selected per question
+   - Displays error if no option is selected
+   - Calculates score and displays result at the end
+   - All checkboxes are disabled after completion
 
-## Sample Output
+## ✅ Sample Flow
 
 ```
-Enter your first name: Ahron James
-Enter your last name: Balmoria
-Enter your age: 18
-Enter hours worked: 8
-Enter hourly wage: 100
+Question: What does CPU stand for?
+[A] Central Processing Unit
+[B] Computer Personal Unit
+[C] Central Print Unit
+[D] Control Processing Unit
 
-Employee Information
---------------------
-Full Name   : Ahron James Balmoria
-Age         : 18 years old
-Daily Salary: PHP 800.00
+[User selects an answer and clicks "Next"]
+
+...
+
+After 3 questions:
+"Quiz Completed! Your Score: 2 out of 3 correct!"
 ```
 
 ## Author
