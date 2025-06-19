@@ -1,5 +1,5 @@
 # Complete Employee Information System with Conditional Statements
-This program is a continuation of the Emplyoo Information System with the addition of Conditional Statements written in Java.
+This program is a continuation of the Employee Information System with the addition of Conditional Statements written in Java.
 
 ## Description
 This version introduces **conditional statements** to validate user inputs and simulate basic HR logic. It restricts access based on age, validates working hours, and calculates salary details depending on job roles and income thresholds.
