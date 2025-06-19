@@ -1,51 +1,53 @@
-# Employee Information System
-This program is a simple Employee Information System written in Java.
+# Employee Information System (GUI using AWT)
+This program is a Employee Information System with GUI using AWT written in Java.
 
 ## Description
-It demonstrates the use of basic input/output operations, arithmetic calculations, and Scanner class usage to collect user input from the console.
+This activity introduces a **Graphical User Interface (GUI)** version of the Employee Information System using **Java AWT (Abstract Window Toolkit)**. It replaces the previous console-based input/output with text fields, labels, a submit button, and a display area. The program performs basic employee salary calculations and validations in a more user-friendly environment.
 
-**The Employee System collects the following information:**
-- First Name
-- Last Name
-- Age
-- Hours Worked
-- Hourly Wage
- 
-After collecting the following information, it then computes **hours Worked** and **Hourly Wage** to get **Daily Salary**
+## Objectives
+- Implement Java GUI using AWT components (`Frame`, `Panel`, `Label`, `TextField`, `Button`, `TextArea`)
+- Apply layout managers (`BorderLayout`, `GridLayout`)
+- Handle GUI events using `ActionListener` and `WindowAdapter`
+- Perform input validation with user-friendly error feedback
 
-## Objective
-- Get the information of the user
-- Perform arithmetic operations
-- Format and display output clearly
+## How It Works
 
-## How It works
-
-1. It ask for the followung information first 
-   - First and last name
+1. **Inputs Collected via GUI:**
+   - First Name
+   - Last Name
    - Age
-   - Hours worked
-   - Hourly wage
+   - Hours Worked
+   - Hourly Rate
 
-2. The program then calculates **Daily Salary**
-    ```
-   dailySalary = hoursWorked * hourlyWage
-    ```
-3. The output displays a summary of all information
+2. **Validation Checks:**
+   - All fields must be filled
+   - Age must be a valid whole number
+   - Hours Worked and Hourly Rate must be valid numeric values (can include decimals)
 
-## Sample Output
+3. **Calculations:**
+   - `dailySalary = hoursWorked * hourlyRate`
+
+4. **Output:**
+   - Full Name
+   - Age
+   - Daily Salary (formatted to two decimal places)
+
+5. **Features:**
+   - Error messages are shown in the output area if inputs are invalid
+   - Window closes gracefully on user request
+
+## Sample Output (in the TextArea)
 
 ```
-Enter your first name: Ahron James
-Enter your last name: Balmoria
-Enter your age: 18
-Enter hours worked: 8
-Enter hourly wage: 100
+Full Name: Ahron James Balmoria
+Age: 26 years old
+Daily Salary: PHP 1040.00
+```
 
-Employee Information
---------------------
-Full Name   : Ahron James Balmoria
-Age         : 18 years old
-Daily Salary: PHP 800.00
+Or in case of invalid input:
+
+```
+Error: Hourly worked and hourly rate must be valid numbers.
 ```
 
 ## Author
