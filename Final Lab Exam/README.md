@@ -31,7 +31,7 @@ A stylish, fully functional **Java Swing-based calculator** with custom pink the
 
 ## Sample Output
 
-![Calculator UI Preview](#) *(PinkCalculator.png)*
+![Calculator UI Preview](PinkCalculator.png)
 
 ### Example History Dialog:
 ```
