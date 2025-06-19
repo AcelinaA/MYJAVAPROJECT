@@ -21,17 +21,17 @@ After collecting the following information, it then computes **hours Worked** an
 
 ## How It works
 
-1. It ask for the following information first 
+1. **It ask for the following information first** 
    - First and last name
    - Age
    - Hours worked
    - Hourly wage
 
-2. The program then calculates **Daily Salary**
+2. **The program then calculates Daily Salary**
     ```
    dailySalary = hoursWorked * hourlyWage
     ```
-3. The output displays a summary of all information
+3. **The output displays a summary of all information**
 
 ## Sample Output
 
