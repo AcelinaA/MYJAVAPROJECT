@@ -1,6 +1,6 @@
 # Quiz Application (Java AWT)
-
-## 📄 Description
+This program is a Quiz App with GUI using AWT written in Java.
+## Description
 This project is a simple **Quiz Application** built using **Java AWT (Abstract Window Toolkit)**. It features multiple-choice questions with radio buttons, error handling, and score tracking, all within a basic GUI layout. The quiz consists of three questions and gives the user a score summary upon completion.
 
 ## Objectives
@@ -26,7 +26,7 @@ This project is a simple **Quiz Application** built using **Java AWT (Abstract W
    - Calculates score and displays result at the end
    - All checkboxes are disabled after completion
 
-## ✅ Sample Flow
+## Sample Flow
 
 ```
 Question: What does CPU stand for?
